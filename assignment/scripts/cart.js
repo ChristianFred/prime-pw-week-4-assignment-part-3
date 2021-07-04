@@ -31,3 +31,11 @@ function listItems(){
   }
 }
 listItems()
+
+function RemoveItems(){
+  basket.length = 0;
+  console.log(basket);
+}
+RemoveItems()
+addItem('Water');
+listItems()
